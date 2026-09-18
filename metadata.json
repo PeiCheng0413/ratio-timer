@@ -1,0 +1,6 @@
+{
+  "name": "工休比例計時器",
+  "description": "根據工作時間與自訂比例自動換算休息倒數，支援超時累計、提醒通知及圓餅圖統計分析的專注計時器。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

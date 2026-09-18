@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Stopwatch top crown -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M51,24 h6 v5 h-6 z" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M47,21 h14 v3 h-14 z" />
+    
+    <!-- Outer ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#64748B"
+        android:strokeWidth="3.5"
+        android:pathData="M54,30 A25,25 0 1,1 53.9,30 Z" />
+
+    <!-- Work sector arc (approx 75% cyan #38BDF8) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,30 A25,25 0 1,0 79,55" />
+
+    <!-- Break sector arc (approx 25% amber/coral #FB923C) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FB923C"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M79,55 A25,25 0 0,0 54,30" />
+
+    <!-- Inner pie slice representation -->
+    <path
+        android:fillColor="#3338BDF8"
+        android:pathData="M54,55 L54,34 A21,21 0 1,0 75,55 Z" />
+    <path
+        android:fillColor="#33FB923C"
+        android:pathData="M54,55 L75,55 A21,21 0 0,0 54,34 Z" />
+
+    <!-- Center pivot and hands -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,55 A3.5,3.5 0 1,1 53.9,55 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,55 L54,38" />
+    <path
+        android:strokeColor="#FB923C"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,55 L67,55" />
+</vector>
